@@ -3,6 +3,27 @@
     --accent-background-color: #2F303A;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1630px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #E5E5E5;
@@ -47,6 +68,8 @@ font-weight: 700;
 
 .header {
     background-color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .header-logo {
     font-family: 'Raleway';
@@ -119,6 +142,8 @@ font-weight: 700;
         text-transform: uppercase;
     
         color: #FFFFFF;
+
+        padding: 200px 452px 280px 452px;       
 }
 
 .hero-btn {
@@ -161,6 +186,12 @@ border-radius: 4px;
 .pec-bottom-text {
         font-size: 14px;
         line-height: 1.71;
+
+        padding-top: 10;
+}
+
+.pec-list {
+    padding-top: 94px;
 }
 
 /*-----------------WORK---------------*/
