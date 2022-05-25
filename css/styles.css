@@ -188,6 +188,7 @@ border-radius: 4px;
         line-height: 1.71;
 
         padding-top: 10;
+        padding-bottom: 47px;
 }
 
 .pec-list {
@@ -196,13 +197,25 @@ border-radius: 4px;
 
 /*-----------------WORK---------------*/
 
+.work-title {
+    padding-top: 47px;
+    padding-bottom: 25px;
+}
 
+.work-list {
+    padding-top: 25px;
+    padding-bottom: 94px;
+}
 
 /*-----------------TEAM---------------*/
 
 .team {
     background-color: #F5F4FA;
+
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
 
 
 .team-text {
