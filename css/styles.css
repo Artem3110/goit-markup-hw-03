@@ -216,6 +216,15 @@ border-radius: 4px;
     padding-bottom: 94px;
 }
 
+.team-list {
+    padding-top: 50px;
+}
+
+.bottom-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 
 .team-text {
@@ -232,6 +241,8 @@ border-radius: 4px;
         font-size: 16px;
         line-height: 1.18;
         text-align: center;
+
+        padding-top: 10px;
 }
 
 /*-----------------FOOTER---------------*/
@@ -239,6 +250,9 @@ border-radius: 4px;
 .footer {
     background-color: var(--accent-background-color);
     font-style: normal;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -251,6 +265,10 @@ border-radius: 4px;
         color: var(--accent-color);
 }
 
+.footer-list {
+    padding-top: 20px;
+}
+
 .footer-adress {
         font-weight: 400;
         font-style: normal;
@@ -259,6 +277,7 @@ border-radius: 4px;
         letter-spacing: 0.03em;
     
         color: #FFFFFF;
+
 }
 
 .footer-mail {
@@ -269,6 +288,8 @@ border-radius: 4px;
         letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);
+
+        padding-top: 9px;
 }
 
 .footer-tel {
@@ -279,6 +300,8 @@ border-radius: 4px;
         letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);
+
+        padding-top: 9px;
 }
 
 .footer-mail:hover, .footer-mail:focus {
