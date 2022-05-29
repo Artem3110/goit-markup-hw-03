@@ -235,6 +235,18 @@ border-radius: 4px;
 
 .pec-list {
     padding-top: 94px;
+
+    display: flex;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.pec-item:not (:last-child) {
+    margin-right: 30px;
+}
+
+.bottom-text {
+    width: 270px;
 }
 
 /*-----------------WORK---------------*/
