@@ -264,7 +264,7 @@ border-radius: 4px;
     padding-left: 215px;
 }
 
-.work-item + .work-item {
+.work-item:not(:last-child) {
     margin-left: 30px;
 }
 
@@ -284,17 +284,17 @@ border-radius: 4px;
 
 .team-list {
     display: flex;
-    margin-left: 215px;
+    margin-left: 185px;
 }
 
 .team-item {
-   justify-content: space-between;
-    
-}
-
-.team-item:not(:last-child) {
+    flex-basis: (100% / 4 - 30px);
     margin-left: 30px;
 }
+
+/*.team-item:not(:last-child) {
+    margin-left: 30px;
+}*/
 
 .bottom-title {
     margin-top: 30px;
@@ -407,8 +407,32 @@ border-radius: 4px;
     padding-bottom: 94px;
 }
 
+.portfolio-list-btn {
+    display: flex;
+    margin-left: 495px;
+}
+
+.portfolio-btn {
+    margin-left: 8px;
+}
+
+
 .portfolio-list {
     padding-top: 50px;
+    padding-left: 215px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+
+.portfolio-item {
+    flex-basis: calc(100% / 9 - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .portfolio-btn {
