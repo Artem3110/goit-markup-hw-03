@@ -278,8 +278,22 @@ border-radius: 4px;
     padding-bottom: 94px;
 }
 
+.team-title {
+    padding-bottom: 50px;
+}
+
 .team-list {
-    padding-top: 50px;
+    display: flex;
+    margin-left: 215px;
+}
+
+.team-item {
+   justify-content: space-between;
+    
+}
+
+.team-item:not(:last-child) {
+    margin-left: 30px;
 }
 
 .bottom-title {
@@ -314,7 +328,7 @@ border-radius: 4px;
     font-style: normal;
 
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 60px
 }
 
 .footer-logo {
@@ -325,10 +339,13 @@ border-radius: 4px;
         letter-spacing: 0.03em;
     
         color: var(--accent-color);
+
+        padding-left: 215px;
 }
 
 .footer-list {
     padding-top: 20px;
+    padding-left: 215px;
 }
 
 .footer-adress {
