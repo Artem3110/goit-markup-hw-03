@@ -70,6 +70,7 @@ font-weight: 700;
     background-color: #FFFFFF;
     padding-top: 25px;
     padding-bottom: 25px;
+    border: 1px solid #ECECEC;
     
 }
 
@@ -166,8 +167,8 @@ font-weight: 700;
     padding-top: 200px;
     padding-bottom: 210px;
     align-items: center;
-    
-    max-width: 1600px;
+
+    justify-content: center;
 
 }
 
@@ -263,8 +264,7 @@ border-radius: 4px;
 
 
 .work-list {
-    padding-top: 25px;
-    padding-bottom: 94px;
+    margin-top: 50px;
 
     display: flex;
 
@@ -285,7 +285,7 @@ border-radius: 4px;
 }
 
 .team-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-list {
@@ -303,8 +303,8 @@ border-radius: 4px;
 }*/
 
 .bottom-title {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -324,7 +324,7 @@ border-radius: 4px;
         line-height: 1.18;
         text-align: center;
 
-        padding-top: 10px;
+        margin-top: 10px;
 }
 
 /*-----------------FOOTER---------------*/
@@ -348,7 +348,7 @@ border-radius: 4px;
 }
 
 .footer-list {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .footer-adress {
@@ -371,7 +371,7 @@ border-radius: 4px;
     
         color: rgba(255, 255, 255, 0.6);
 
-        padding-top: 9px;
+        margin-top: 9px;
 }
 
 .footer-tel {
@@ -383,7 +383,7 @@ border-radius: 4px;
     
         color: rgba(255, 255, 255, 0.6);
 
-        padding-top: 9px;
+        margin-top: 9px;
 }
 
 .footer-mail:hover, .footer-mail:focus {
@@ -406,7 +406,7 @@ border-radius: 4px;
 
 
 .portf {
-    background-color: #E5E5E5;;
+    background-color: #FFFFFF;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -434,7 +434,7 @@ border-radius: 4px;
 
 .portfolio-item {
      background: #FFFFFF;
-     border: 1px solid #EEEEEE
+     border: 1px solid #EEEEEE;
 
 
     flex-basis: calc(100% / 9 - 30px);
@@ -475,10 +475,12 @@ border-radius: 4px;
 }
 
 .portf-bottom-title {
-    margin-top: 20px;
-    margin-right: 24px;
-    margin-bottom: 20px;
-    margin-left: 24px;
+    
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+
 }
 
 
