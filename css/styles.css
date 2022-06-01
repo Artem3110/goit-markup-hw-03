@@ -26,7 +26,7 @@ button {
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;;
 }
 
 .list {
@@ -258,8 +258,8 @@ border-radius: 4px;
 /*-----------------WORK---------------*/
 
 .work {
-    margin-top: 47px;
-    margin-bottom: 94px;
+    padding-top: 47px;
+    padding-bottom: 94px;
 }
 
 
@@ -357,8 +357,11 @@ border-radius: 4px;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
+
+        margin-bottom: 9px;
     
         color: #FFFFFF;
+
 
 }
 
@@ -371,7 +374,6 @@ border-radius: 4px;
     
         color: rgba(255, 255, 255, 0.6);
 
-        margin-top: 9px;
 }
 
 .footer-tel {
@@ -383,7 +385,6 @@ border-radius: 4px;
     
         color: rgba(255, 255, 255, 0.6);
 
-        margin-top: 9px;
 }
 
 .footer-mail:hover, .footer-mail:focus {
@@ -402,11 +403,18 @@ border-radius: 4px;
 .footer-logo-accent {
     color: #F5F4FA
 }
+
+.item-footer-mail {
+    margin-top: 9px;
+}
+
+.item-footer-tel {
+    margin-top: 9px;
+}
 /*-----------------PORTFOLIO---------------*/
 
 
 .portf {
-    background-color: #FFFFFF;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -422,7 +430,7 @@ border-radius: 4px;
 
 
 .portfolio-list {
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .portfolio-list {
